@@ -18,7 +18,7 @@ class Item(ItemBase):
 class UserBase(BaseModel):
     email: str
 
-class UserCreate(BaseModel):
+class UserCreate(UserBase):
     password: str
 
 class User(BaseModel):
